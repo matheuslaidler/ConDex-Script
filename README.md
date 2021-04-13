@@ -15,7 +15,7 @@ S.O.: Linux
 
 Shell Script
 
-Notas: Ainda não testando em WSL2; Testando apenas em distribuiçes linux baseadas em Debian, como Ubuntu.
+Compatibilidade: Testado em WSL2 e está funcional (windows); Testando em distribuiçes linux baseadas em Debian, como Ubuntu, e está funcional.
 
 Ferramentas necessárias / usadas pelo script: tar; gzip; bzip2; xz; rar; zip; 7za; compress; lzma; gunzip; bunzip2; unxz; unzip; uncompress 
 

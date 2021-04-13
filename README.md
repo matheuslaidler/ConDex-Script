@@ -9,13 +9,11 @@ Nele possui um menu para escolher se quer compactar ou descompactar, e logo apó
 
 #### Informaçes gerais:
 
-Versão 1.0 -> Ainda em testes
-
-S.O.: Linux
-
 Shell Script
 
-Compatibilidade: Testado em WSL2 e está funcional (windows); Testando em distribuiçes linux baseadas em Debian, como Ubuntu, e está funcional.
+Versão 1.0  (testes)
+
+S.O. Testados: Linux e Windows(WSL)
 
 Ferramentas necessárias / usadas pelo script: tar; gzip; bzip2; xz; rar; zip; 7za; compress; lzma; gunzip; bunzip2; unxz; unzip; uncompress 
 
@@ -26,6 +24,42 @@ Menu de opçes de Compactação:
 Menu de opções de Descompactação:
  
  ![menuDescompact](https://user-images.githubusercontent.com/76860503/114485292-098bc080-9be2-11eb-9e52-6e7aaaf057a0.png)
+ 
+### Notas:
+Testado em Windows com Subsistema de linux no Windows (WSL2);
+Testado em distribuições linux baseadas em Debian;
+
+-Ideias futuras pra att: instalar as ferramentas caso não possua (porém seria apenas para distros que usam 'apt', por isso não adicionei essa funcionalidade ainda)-
+
+### Tutoriais:
+Para quem quiser usar o script em Windows:
+
+Precisa ativar o WSL para usar terminal Ubuntu no Windows.
+
+ - Apertar “Win+r”  >  Digitar “optionalfeatures”  >  Ativar / Marcar a caixinha “Subsistema do Windows para Linux”  >  Powershell como administrador  > digitar os codigos abaixo:
+
+ - dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+ - dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+ - Baixar e abrir o teriminal linux na loja de apps da microsoft pelo nome da distribuição, como por exemplo o Ubuntu >  Reiniciar > Pronto.
+
+Baixando Ubuntu e usando o terminal dele, ja pode usar o script.
+
+- Para abrir no script precisa ir na pasta dele pelo Terminal e abrir com o comando: " ./ConDex.sh  " (IMPORTANTE!! Primeira vez abrindo o programa precisa dar permissão pra ele, use o comando " chmod +x ConDex.sh ")
+
+Para entrar na pasta do seu script use o comando cd até onde ele está, podendo usar o comando ls pra auxiliar.
+Caso queira entrar no seu desktop, use o comando: (para quem esta no wsl)
+
+cd /mnt/c/Users/USUARIO/Desktop/ -> em USUARIO colocar a pasta do seu usuário; em c colocar a letra representativa do disco / partição; 
+ Caso queira ir em outra pasta sem ser o Desktop, é só ir indo até a pasta do usuário apenas e ir indo nas pastas que quiser, podendo ser visto pelo comando 'ls' (lista todos os arquivos e diretórios ( as pastas ficam em negrito ).
+
+
+Caso precise de ajuda para usar o terminal, pode acessar: https://matheuslaidler.github.io/terminal
+
+Inclusive, este tutorial de WSL está presente lá também.
+
+
 
 ### Créditos:
 Criador: Matheus Laidler

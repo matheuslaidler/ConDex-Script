@@ -100,11 +100,22 @@ Testado em distribuições **Linux** baseadas em Debian;
   ```bsh
   $ condex
   ```
-
-Caso precise instalar alguma dependência (mostrada pelo script), apenas use o comando de instalação da sua distro com o nome informado que não foi encontrado, como por exemplo> `sudo apt install rar`
+   Obs: esses passos acima podem não funcionar muito bem para quem esta usando WSL (windows)
+ 
+  ***Instalando dependências:***
+  
+ Caso precise instalar alguma dependência (mostrada pelo script), apenas use o comando de instalação da sua distro com o nome informado que não foi encontrado, como por exemplo> `sudo apt install rar` após receber "RAR NÃO encontrado! Favor, instale e tente novamemte" (exemplo abaixo para a extensão de complemento .bz2)
 
 Caso o pacote não seja encontrado no repositório da distro, procure como instalar ele na internet ou troque de extensão  
+ 
+  ![exemplo](https://user-images.githubusercontent.com/76860503/114658204-d15ead80-9cc7-11eb-9a04-e2494fc6712b.png)
 
+ (Funcionamento da ferramenta em windows pelo WSL2 + Exemplo de quando falta dependência e a sua instalação)
+
+
+  
+  
+ 
   ***Usando o script em Windows:***
 
 Precisa ativar o WSL para usar terminal Ubuntu no Windows.

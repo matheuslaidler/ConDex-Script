@@ -110,7 +110,7 @@ Caso o pacote não seja encontrado no repositório da distro, procure como insta
  
   ![exemplo](https://user-images.githubusercontent.com/76860503/114658204-d15ead80-9cc7-11eb-9a04-e2494fc6712b.png)
 
- (Funcionamento da ferramenta em windows pelo WSL2 + Exemplo de quando falta dependência e a sua instalação)
+ (Funcionamento da ferramenta em windows + Exemplo de quando falta dependência e a sua instalação)
 
 
   

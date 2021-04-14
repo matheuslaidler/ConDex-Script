@@ -134,31 +134,25 @@ Precisa ativar o WSL para usar terminal Ubuntu no Windows.
 
 *Baixando Ubuntu e usando o terminal dele, já pode usar o script.*
 
-- Para abrir o script precisa ir na pasta dele pelo Terminal e usar o comando: " ./ConDex.sh  " (**IMPORTANTE!!** Primeira vez abrindo o programa precisa dar permissão de execução pra ele, use o comando " `chmod +x ConDex.sh` " antes da **primeira** execução, como vimos no tutorial para usuários linux)
+- Para abrir o script precisa ir na pasta dele pelo Terminal e usar o comando: " ./ConDex.sh  " (**IMPORTANTE!!** Primeira vez abrindo o programa precisa dar permissão de execução pra ele. Por isso use o comando " `chmod +x ConDex.sh` " antes da **primeira** execução, como já vimos no tutorial para usuários linux)
 
-Para entrar na pasta do seu script use o comando `cd` até onde ele está, podendo usar o comando `ls` pra auxiliar.
-Caso queira entrar no seu desktop, use o comando:
-
+Para entrar na pasta do seu script use o comando `cd` até onde ele está, podendo usar o comando `ls` pra auxiliar (assim da pra ir entrando de pasta em pasta)
+Exemplo, pra ir pra raiz desse subsistema linux, uso o comando ' cd / '; na pasta de dispositivos 'montados' estará o disco C (e qlqr partição sua do win);
+  Sendo assim, caso queira entrar no seu desktop, use o comando:
 `cd /mnt/c/Users/USUARIO/Desktop/` -> em *USUARIO* colocar a pasta do seu usuário; em *c* colocar a letra representativa do disco / partição (geralmente C:, que será representado como `c`); 
- *Caso queira ir em outra pasta sem ser o Desktop, é só ir navegando nas pastas que quiser, podendo ser auxiliado com o comando `ls`, lista todos os arquivos e diretórios ( as pastas ficam em **negrito** ). Podendo ir trocando de pasta uma de cada vez (ou apenas copiando o caminho de onde está o script, mas coloque o `/mnt/` antes do `c` e não o use com dois pontos e nem maiúsculo).*
+ *Caso queira ir em outra pasta sem ser o Desktop, é só ir navegando nas pastas que quiser. Repito, para quem n esta acostumado, pode ir navegando aos poucos podendo ser auxiliado com o comando `ls` que lista todos os arquivos e diretórios ( as pastas ficam em **negrito** ). Pode também apenas copiar e colar o caminho de onde está o script na pasta q vc deixou, mas se é do seu windows, ent coloque o `/mnt/` antes do `c` e não o use com dois pontos e nem maiúsculo) (C://~nao usar assim) - caso de erro, pode ser que precisa estar em ingles o nome, como na area de trabalho estar desktop*
 
 ```
 Caso precise de ajuda para usar o terminal, pode acessar: https://matheuslaidler.github.io/terminal
 Nele tem explicação dos comandos do terminal, e tem a parte onde explicamos o comando cd, ls e o apt, que podem ser importantes.
 Inclusive, nele tbm está presente tutorial de WSL.
 ```
-
-
-
- Depois de poder usar o WSL, o tutorial para Linux se torna viável também.
-
-
+ Depois de poder usar o WSL, um tutorial para Linux se torna viável também  (tlvz n funcione direito a parte de deixar o script executável em qlqr pasta so chamando o nome).
 
 ##### Ideias / Sugestões anotadas:
 
-*- instalar as ferramentas caso não possua (problemática: seria apenas para distros que usam 'apt', por isso não adicionei essa funcionalidade ainda, mas ja pensei em uns jeitos de fazer isso funcionar tbm de forma automática, mas como foge da proposta do projeto, posso deixar isso pra um futuro. Ao mesmo tempo que quero algo prático, tbm quero algo compatível)-*
-
-
+*- Verificar compatibilidade: Colocado -*
+*- Instalar as ferramentas após a verificação, caso não possuam: Não colocado (problemática: seria apenas para distros que usam 'apt', por isso não adicionei essa funcionalidade ainda, mas ja pensei em uns jeitos de fazer isso funcionar tbm de forma automática, mas como foge da proposta do projeto, posso deixar isso pra um futuro. Ao mesmo tempo que quero algo prático, tbm quero algo compatível) - (ideia ainda está em aberto)*
 
 ### Créditos:
 

@@ -1,8 +1,7 @@
 #!/bin/bash
 
-#&1>/dev/null &2>/dev/null
-#test -e *.ext; echo $? > arquivo.txt   if [[ $(cat arquivo.txt) = "0" ]]   0=true 1=false   (dava problema com .xz, .bz2 e .gz) [mudei de ideia, agr o programa n vai reconhecer e descompactar, a pessoa q vai escolher a extensão q quer compactar e/ou descompactar - assim evita probemas, fica completo e mais prático para muitas situações]
-#Colocar a verificação de cada extensão (como fizemos com winrar)
+#MadeBy:MatheusLaidler
+#VersãoCompleta~emTestes
 
 home(){
 echo "

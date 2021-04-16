@@ -150,9 +150,9 @@ Inclusive, nele tbm está presente tutorial de WSL.
  Depois de poder usar o WSL, um tutorial para Linux se torna viável também  (tlvz n funcione direito a parte de deixar o script executável em qlqr pasta so chamando o nome).
 
 ##### Ideias / Sugestões anotadas:
-
-*- Verificar compatibilidade: Colocado -*
-*- Instalar as ferramentas após a verificação, caso não possuam: Não colocado (problemática: seria apenas para distros que usam 'apt', por isso não adicionei essa funcionalidade ainda, mas ja pensei em uns jeitos de fazer isso funcionar tbm de forma automática, mas como foge da proposta do projeto, posso deixar isso pra um futuro. Ao mesmo tempo que quero algo prático, tbm quero algo compatível) - (ideia ainda está em aberto)*
+ 
+ - _Verificar compatibilidade_: **_Colocado_**
+ - _Instalar as ferramentas após a verificação, caso não possuam_: **_Não colocado_** (problemática: seria apenas para distros que usam 'apt', por isso não adicionei essa funcionalidade ainda, mas ja pensei em uns jeitos de fazer isso funcionar tbm de forma automática, mas como foge da proposta do projeto, posso deixar isso pra um futuro. Ao mesmo tempo que quero algo prático, tbm quero algo compatível) - *(ideia ainda está em aberto)*
 
 ### Créditos:
 
